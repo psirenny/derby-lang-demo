@@ -1,0 +1,32 @@
+{
+  "authors": [
+    "psirenny <djtorres0@gmail.com>"
+  ],
+  "dependencies": {
+    "bootstrap": "*",
+    "font-awesome": "*"
+  },
+  "keywords": [
+    "derby",
+    "gettext",
+    "i18n",
+    "i10n",
+    "internationalization",
+    "language",
+    "locale",
+    "localization",
+    "messageformat",
+    "translation"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "license": "MIT",
+  "name": "neigh-demo",
+  "private": true,
+  "version": "0.0.0"
+}
