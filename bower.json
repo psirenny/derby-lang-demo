@@ -4,7 +4,9 @@
   ],
   "dependencies": {
     "bootstrap": "*",
-    "font-awesome": "*"
+    "font-awesome": "*",
+    "select2": "*",
+    "select2-bootstrap-css": "*"
   },
   "keywords": [
     "derby",
