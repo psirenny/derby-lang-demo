@@ -5,20 +5,12 @@
 
 <Scripts:>
   <script src="/shared/bower_components/jquery/jquery.min.js"></script>
-  <script src="/shared/bower_components/select2/select2.min.js"></script>
-  <script>
-    $(function () {
-      $('#languages').select2();
-    });
-  </script>
 
 <Header:>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="/shared/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="/shared/bower_components/bootstrap/examples/jumbotron/jumbotron.css" rel="stylesheet">
   <link href="/shared/bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link href="/shared/bower_components/select2/select2.css" rel="stylesheet">
-  <link href="/shared/bower_components/select2-bootstrap-css/select2-bootstrap.css" rel="stylesheet">
   <ui:connectionAlert>
   <header class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container">
@@ -29,15 +21,15 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="/"><i class="fa fa-comment-o"></i> Neigh</a>
+        <a class="navbar-brand" href="/"><i class="fa fa-flag"></i> Derby Lang</a>
       </div>
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
           <app:navitem href="/" title="Home">
         </ul>
-        <div class="navbar-form navbar-right">
+        <form class="navbar-form navbar-right">
           <label class="sr-only" for="languages">Language</label>
-          <select id="languages" style="width:200px;">
+          <select class="form-control" id="lang">
             <optgroup label="English">
               <option value="en-us">United States</option>
             </optgroup>
@@ -45,7 +37,7 @@
               <option value="es">Spain</option>
             </optgroup>
           </select>
-        </div>
+        </form>
       </div>
     </div>
   </header>
@@ -55,7 +47,7 @@
   <div class="container">
     <div id="footer">
       <p class="text-muted credit">
-        Neigh {{$config.version}} · <a href="{{$config.repository.url}}"><i class="fa fa-github"></i> GitHub Project</a>
+        Derby Lang {{$config.version}} · <a href="{{$config.repository.url}}"><i class="fa fa-github"></i> GitHub Project</a>
       </p>
     </div>
   </div>

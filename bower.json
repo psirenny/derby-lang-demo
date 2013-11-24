@@ -4,9 +4,7 @@
   ],
   "dependencies": {
     "bootstrap": "*",
-    "font-awesome": "*",
-    "select2": "*",
-    "select2-bootstrap-css": "*"
+    "font-awesome": "*"
   },
   "keywords": [
     "derby",
@@ -28,7 +26,7 @@
     "tests"
   ],
   "license": "MIT",
-  "name": "neigh-demo",
+  "name": "derby-lang-demo",
   "private": true,
   "version": "0.0.0"
 }

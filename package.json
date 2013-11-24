@@ -5,10 +5,10 @@
     "connect-mongo": "~0.3.2",
     "convict": "*",
     "derby": "0.5.x",
+    "derby-lang": "*",
     "derby-ui-github-buttons": "*",
     "express": "~3.2.5",
     "livedb-mongo": "~0.2.0",
-    "neigh": "*",
     "racer-browserchannel": "~0.1.0",
     "racer-hooks": "*",
     "redis": "~0.8.3"
@@ -17,11 +17,11 @@
   "engines": {
     "node": "0.10.x"
   },
-  "name": "neigh-demo",
+  "name": "derby-lang-demo",
   "private": true,
   "repository": {
     "type" : "git",
-    "url" : "https://github.com/psirenny/neigh-demo.git"
+    "url" : "https://github.com/psirenny/derby-lang-demo.git"
   },
   "version": "0.0.0",
   "scripts": {
