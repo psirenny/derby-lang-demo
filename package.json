@@ -6,6 +6,7 @@
     "convict": "*",
     "derby": "0.5.x",
     "derby-lang": "*",
+    "derby-lang-session": "*",
     "derby-ui-github-buttons": "*",
     "express": "~3.2.5",
     "livedb-mongo": "~0.2.0",

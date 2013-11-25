@@ -16,7 +16,7 @@
     <div class="container">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-          <span class="sr-only">__($lang.locale, 'Toggle_navigation')</span>
+          <span class="sr-only">__(_session.locale, 'Toggle_navigation')</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
@@ -28,10 +28,10 @@
           <app:navitem href="/" title="Home">
         </ul>
         <form class="navbar-form navbar-right">
-          <label class="sr-only" for="languages">{__($lang.locale, 'Language')}</label>
+          <label class="sr-only" for="languages">{__(_session.locale, 'Language')}</label>
           <select class="form-control" id="languages">
             {#each $lang.locales}
-            <option selected="{equal($lang.locale, .)}" value="{.}">{__(., .)}</option>
+            <option selected="{equal(_session.locale, .)}" value="{.}">{__(., .)}</option>
             {/}
           </select>
         </form>
@@ -44,12 +44,12 @@
   <div class="container">
     <div id="footer">
       <p class="text-muted credit">
-        Derby Lang {{$config.version}} · <a href="{{$config.repository.url}}"><i class="fa fa-github"></i> {__($lang.locale, 'Name_Project', 'name', 'GitHub')}</a>
+        Derby Lang {{$config.version}} · <a href="{{$config.repository.url}}"><i class="fa fa-github"></i> {__(_session.locale, 'Name_Project', 'name', 'GitHub')}</a>
       </p>
     </div>
   </div>
 
 <navitem:>
   <li class="{{#if equal($url, @href)}}active{{/}}">
-    <a href="{{@href}}">{__($lang.locale, @title)}</a>
+    <a href="{{@href}}">{__(_session.locale, @title)}</a>
   </li>
