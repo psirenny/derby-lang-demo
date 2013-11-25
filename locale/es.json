@@ -1,0 +1,11 @@
+{
+  "A_translation_library_for_name": "Una biblioteca de traducción para {name}.",
+  "Home": "Casa",
+  "Language": "Idioma",
+  "Name_Project": "{name} Proyectos",
+  "Sorry_page_forbidden": "Lo sentimos, la página está prohibido.",
+  "Sorry_page_not_found": "Lo sentimos, la página no se encuentra.",
+  "Sorry_something_went_wrong": "Lo sentimos, algo salió mal.",
+  "Toggle_navigation": "Navegación toggle",
+  "View_on_name": "Ver en {name}"
+}

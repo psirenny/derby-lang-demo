@@ -1,3 +1,11 @@
 {
-
+  "A_translation_library_for_name": "A translation library for {name}.",
+  "Home": "Home",
+  "Language": "Language",
+  "Name_Project": "{name} Project",
+  "Sorry_page_forbidden": "We're sorry, page forbidden.",
+  "Sorry_page_not_found": "We're sorry, page not found.",
+  "Sorry_something_went_wrong": "We're sorry, something went wrong.",
+  "Toggle_navigation": "Toggle navigation",
+  "View_on_name": "View on {name}"
 }
