@@ -1,0 +1,12 @@
+{
+  "A_translation_library_for_name": "Output formatting module for {name}.",
+  "Home": "Root",
+  "Language": "Output format",
+  "Name_Project": "{name} Source Code",
+  "rb": "Robot",
+  "Sorry_page_forbidden": "Error code: 403 (Access denied)",
+  "Sorry_page_not_found": "Error code: 404 (Connection refused)",
+  "Sorry_something_went_wrong": "Error code: 500 (Internal error)",
+  "Toggle_navigation": "Toggle navigation",
+  "View_on_name": "Access on {name}"
+}
