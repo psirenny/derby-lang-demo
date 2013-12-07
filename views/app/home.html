@@ -5,8 +5,8 @@
   <div class="jumbotron">
     <div class="container">
       <h1><i class="fa fa-flag"></i> Derby Lang</h1>
-      <p>{unescaped __(_session.locale, 'A_translation_library_for_name', 'name', link('http://derbyjs.com', 'Derby JS'))}</p>
-      <p><a class="btn btn-primary btn-lg" role="button" href="{{$config.repository.url}}"><i class="fa fa-github"></i> {__(_session.locale, 'View_on_name', 'name', 'GitHub')}</a></p>
+      <p>{unescaped __($locale.locale, 'A_translation_library_for_name', 'name', link('http://derbyjs.com', 'Derby JS'))}</p>
+      <p><a class="btn btn-primary btn-lg" role="button" href="{{$config.repository.url}}"><i class="fa fa-github"></i> {__($locale.locale, 'View_on_name', 'name', 'GitHub')}</a></p>
       <ghbtns:button count="true" giturl="{{$config.repository.url}}" type="watch" width="90">
       <ghbtns:button count="true" giturl="{{$config.repository.url}}" type="fork" width="90">
       <ghbtns:button count="true" giturl="{{$config.repository.url}}" type="follow" width="180">
