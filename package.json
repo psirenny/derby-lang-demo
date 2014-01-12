@@ -6,6 +6,7 @@
     "convict": "*",
     "derby": "0.5.x",
     "derby-lang": "*",
+    "derby-lang-fs": "*",
     "derby-lang-locale": "*",
     "derby-locale": "*",
     "derby-locale-browser": "*",
